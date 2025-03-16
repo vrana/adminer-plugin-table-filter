@@ -15,7 +15,7 @@ class AdminerQuickFilterTables
 	}
 	public function head()
 	{   
-		$nonce = get_nonce();
+		$nonce = Adminer\get_nonce();
 ?>
 
 		<style>
